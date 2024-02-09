@@ -195,3 +195,42 @@ body{
     font-size:1.1vw ;
     font-weight: 700;
 }
+
+/* <!--........... Hero Section.............. */
+.image-container{
+    position: relative;
+}
+.image-list{
+    display: flex;
+}
+.image-item{
+    min-width: 100%;
+    margin-top: 60px;
+    /* transform: translate(-300%); */
+    transition: transform 0.4s;
+}
+.image-item img{
+    width: 100%;
+    height: 100%;
+    
+}
+.image-btn{
+    position: absolute;
+    top: 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.btn-slide{
+    border: 2px solid black;
+    padding: 100px 20px;
+    font-size: 40px;
+    font-weight: 100;
+    background-color: transparent;
+    color:white;
+}
+.btn-slide:focus{
+    border-color: white;
+    border-radius: 5px;
+    box-shadow: 2px solid white;
+}
